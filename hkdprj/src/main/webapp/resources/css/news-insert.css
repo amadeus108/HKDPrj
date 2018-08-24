@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+
+/* ----- reset ----- */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	margin: 0px;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+input{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* ----- main ----- */
+body{
+	background-color: rgb(243, 244, 247);
+	
+}
+#container {
+/* 	display: flex; */
+	flex-direction: column;
+	width: 100%;
+}
+	#container > h1{
+		display: none;
+	}
+	.content{
+		margin: 15px;
+		padding: 20px;
+		background: #fff;
+	}
+	
+	.form-group{
+/* 		display: flex; */
+/* 		margin-bottom: 25px; */
+/* 		box-sizing: border-box; */
+
+	    padding: 0 0 25px;
+	    font-size: 14px;
+	    position: relative;
+	}
+		.form-group label{
+/* 			padding-top: 7px; */
+/* 			margin: 0 10px; */
+/* 			margin-top: 5px; */
+/* 			text-align: right; */
+/* 			border: 1px solid #e1e1e1; */
+/* 			height: 100%; */
+
+			font-size: 12px;
+		    color: #333;
+		    line-height: 100%;
+		    font-weight: 500;
+		    margin-bottom: 8px;
+		    display: block;
+		    box-sizing: border-box;
+		}
+		.form-group input[type="text"]{
+			height: 40px;
+			background: #fff;
+		    border: 1px solid #ced2db;
+		    color: #333;
+		    font-size: 14px;
+		    border-radius: 0;
+		    width: 100%;
+		    padding: 6px 8px;
+		    display: block;
+		    box-sizing: border-box;
+		}
+		.form-group textarea{
+			width: 100%;
+			background: #fff;
+		    border: 1px solid #ced2db;
+		    color: #333;
+		    font-size: 14px;
+		    border-radius: 0;
+		    padding: 6px 8px;
+		    display: block;
+		    box-sizing: border-box;
+		}
+		input::-webkit-input-placeholder { 
+			color: #dedede; 
+		}
+		textarea::-webkit-input-placeholder { 
+			color: #dedede; 
+		} 
+			
+		.btn{
+		position: relative;
+		text-align: right;
+		}
+		
+		.btn input{
+			width: 50px;
+			height: 30px;
+			cursor: pointer;
+			color: #fff;
+		    background-color: #bf2626;
+		    border: 1px solid #90030c;
+		}
+		.btn input[value="등록"]{
+			margin-right: 10px;
+		}
+		
+/* 		.form-group .form{ */
+/* /* 			margin: 0 10px; */ */
+/* /* 			width: 200px; */ */
+			
+/* 			display: inline; */
+/* 		    margin-left: 10px; */
+/* 		    margin-right: 10px; */
+/* 		    width: 295px; */
+/* 		    height: 34px; */
+/* 		    box-sizing: border-box; */
+/* 		} */
+/* 		.form-group .form input[type="text"]{ */
+/* 			display: block; */
+/* 		    width: 100%; */
+/* 		    height: 34px; */
+/* 		    padding: 6px 12px; */
+/* 		    font-size: 14px; */
+/* /* 		    line-height: 1.428571429; */ */
+/* 		    color: #666; */
+/* 		    background-color: #fff; */
+/* 		    background-image: none; */
+/* 		    border: 1px solid #dedede; */
+/* 		    border-radius: 2px; */
+/* 		    box-sizing: border-box; */
+/* 		} */
+		
+/* 		.form-group .form-content{ */
+/* 		    display: inline; */
+/* 		    margin-left: 10px; */
+/* 		    margin-right: 10px; */
+/* 		    width: 295px; */
+/* 		    height: 100%; */
+/* 		    box-sizing: border-box; */
+/* 		} */
+/* 		.form-group .form-content textarea{ */
+/* 			display: block; */
+/* 		    width: 100%; */
+/* 		    height: 100%; */
+/* 		    padding: 6px 12px; */
+/* 		    font-size: 14px; */
+/* /* 		    line-height: 1.428571429; */ */
+/* 		    color: #666; */
+/* 		    background-color: #fff; */
+/* 		    background-image: none; */
+/* 		    border: 1px solid #dedede; */
+/* 		    border-radius: 2px; */
+/* 		    box-sizing: border-box; */
+/* 		} */
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
