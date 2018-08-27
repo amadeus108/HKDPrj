@@ -81,16 +81,16 @@ a{
 	}
 	#header #login-info{
 		position: fixed;
-		top: 0px;
-		right: -50%;
+		top: -100%;
+		right: 0px;
 		width: 50%;
 		height: 100%;
 		background: #fff;
 		z-index: 10;
-		transition: 500ms right ease 500ms;
+		transition: 500ms top ease 500ms;
 	}
 	#header.menu-show #login-info{
-		right: 0%;
+		top: 0%;
 	}
 	#header.menu-show:after{
 		opacity: 0.7;
