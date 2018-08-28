@@ -15,18 +15,18 @@
 		<section id="profile">
 			<h1 class="hidden">프로필</h1>
 			<div>
-				<div class="auth-status"><a href="/newlecture/login">로그인</a></div>
+				<div class="auth-status"><a href="/login">로그인</a></div>
 				<div class="auth-status"><a href="">회원가입</a></div>
 			</div>
 		</section>
 		<section id="main-menu">
 			<h1 class="hidden">메인 메뉴</h1>
 			<ul>
+				<li><a href="">선수정보</a></li>
+				<li><a href="">클럽정보</a></li>
 				<li><a href="">뉴스</a></li>
 				<li><a href="">경기일정</a></li>
 				<li><a href="">리그테이블</a></li>
-				<li><a href="">선수정보</a></li>
-				<li><a href="">클럽정보</a></li>
 				<li><a href="">이적정보</a></li>
 			</ul>
 		</section>

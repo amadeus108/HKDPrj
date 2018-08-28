@@ -12,6 +12,12 @@ input{
 	margin: 0;
 	padding: 0;
 }
+table{
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
 
 /* ----- common style ----- */
 .hidden{
@@ -31,7 +37,7 @@ input{
 /* 	border: 2px solid green; */
 	position: relative;
 	display: block;
-	background: url("/hkdprj/resources/images/hashtag.png") no-repeat left;
+	background: url("/resources/images/hashtag.png") no-repeat left;
 	background-size: inherit;
 	background-color: #dedede;
 	opacity: 0.5;
@@ -56,14 +62,95 @@ input{
 			top: 3px;
 			right: 0px;
 			text-indent: -999px;
-			background: url("/hkdprj/resources/images/icon-set.png") no-repeat -24px 0px;
+			background: url("/resources/images/icons/icon-set.png") no-repeat -24px 0px;
 		}
+/* ----- 리그 테이블 ----- */		
+#league-table{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-top: 2px solid #bf2626;
+	border-bottom: 2px solid #bf2626;
+}
+	.table{
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.table tr:nth-child(2n){
+		background: #dedede;
+	}
+	.table th{
+		border: 1px solid #dedede;
+	}
+	.table td{
+		border: 1px solid #dedede;
+	}	
 	
-	
-	
-	
-	
-	
+/* ----- 경기 일정 ----- */
+#match-list{
+	margin-top: 10px;
+	border-top: 2px solid #bf2626;
+	border-bottom: 2px solid #bf2626;
+}
+
+	.match-list-container{
+		width: 100%;
+		height: auto;
+	}	
+		.match-date{
+			margin: 0 auto;
+			width: 360px;
+			height: 30px;
+			line-height: 30px;
+		}
+		.match-info{
+			border-top: 1px solid red;
+			border-bottom: 1px solid red;
+			margin: 0 auto;
+			width: 360px;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+			.club-info{
+/* 				border: 1px solid orange; */
+				width: 140px;
+				height: 70px;
+				display: flex;
+				justify-content: space-between;
+			}
+				.club-name{
+	/* 				border: 1px solid yellow; */
+					width: 70px;
+/* 					height: 100px; */
+					line-height: 70px;
+					text-align: center;
+				}
+				.club-logo{
+/* 					border: 1px solid yellow; */
+					width: 70px;
+/* 					height: 70px; */
+					line-height: 70px;
+					text-align: center;
+/* 					background: url("/resources/images/clubs/jeju.png") no-repeat center; */
+					vertical-align: middle;
+				}
+					.club-logo img{
+						margin-top: 11px;
+					}
+			.score{
+/* 				border: 1px solid orange; */
+				width: 70px;
+/* 				height: 70px; */
+				line-height: 70px;
+			}
+			.score .score-inner{
+/* 				border: 1px solid yellow; */
+				text-align: center;
+			}
 	
 	
 	

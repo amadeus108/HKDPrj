@@ -15,6 +15,6 @@
 <body>
 	<tiles:insertAttribute name="header" /> <!-- name은 페이지 중 하나의 이름 -->
 	<tiles:insertAttribute name="main" />
-<%-- 	<tiles:insertAttribute name="footer" /> --%>
+	<tiles:insertAttribute name="footer" />
 </body>
 </html>
