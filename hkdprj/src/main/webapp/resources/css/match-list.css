@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* ----- 경기 일정 ----- */
+#match-list{
+	margin-top: 10px;
+	border-top: 2px solid #bf2626;
+	border-bottom: 2px solid #bf2626;
+}
+
+	.match-list-container{
+		width: 100%;
+		height: auto;
+	}	
+		.match-date{
+			margin: 0 auto;
+			width: 360px;
+			height: 30px;
+			line-height: 30px;
+		}
+		.match-info{
+			border-top: 1px solid red;
+			border-bottom: 1px solid red;
+			margin: 0 auto;
+			width: 360px;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+			.club-info{
+/* 				border: 1px solid orange; */
+				width: 140px;
+				height: 70px;
+				display: flex;
+				justify-content: space-between;
+			}
+				.club-name{
+	/* 				border: 1px solid yellow; */
+					width: 70px;
+/* 					height: 100px; */
+					line-height: 70px;
+					text-align: center;
+				}
+				.club-logo{
+/* 					border: 1px solid yellow; */
+					width: 70px;
+/* 					height: 70px; */
+					line-height: 70px;
+					text-align: center;
+/* 					background: url("/resources/images/clubs/jeju.png") no-repeat center; */
+					vertical-align: middle;
+				}
+					.club-logo img{
+						margin-top: 11px;
+					}
+			.score{
+/* 				border: 1px solid orange; */
+				width: 70px;
+/* 				height: 70px; */
+				line-height: 70px;
+			}
+			.score .score-inner{
+/* 				border: 1px solid yellow; */
+				text-align: center;
+			}

@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<link href="${pageContext.request.contextPath}/resources/css/header.css" rel="stylesheet" />
-<script src="${pageContext.request.contextPath}/resources/js/header.js"></script>
+<link href="/resources/css/header.css" rel="stylesheet" />
+<script src="/resources/js/header.js"></script>
 
 <header id="header">
-	<h1><a href="">Hashtag Kleague Data</a></h1>
+	<h1><a href="/index">Hashtag Kleague Data</a></h1>
 	<section id="header-buttons">
 		<h1 class="hidden">헤더 버튼</h1>
 		<input class="button hamburger-button" type="button" value="메뉴보기" />
@@ -14,7 +14,7 @@
 		<h1 class="hidden">로그인 정보</h1>
 		<section id="profile">
 			<h1 class="hidden">프로필</h1>
-			<div>
+			<div class="status">
 				<div class="auth-status"><a href="/login">로그인</a></div>
 				<div class="auth-status"><a href="">회원가입</a></div>
 			</div>

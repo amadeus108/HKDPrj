@@ -98,10 +98,38 @@ a{
 		transition: 500ms opacity ease;
 	}
 
+/* --- profile style --- */
 
-
-
-
+#profile{
+	margin: 10px auto;
+	width: 100%;
+	height: auto;
+}
+.status{
+	display: flex;
+	justify-content: center;
+}
+	.auth-status{
+		width: 70px;
+		height: 40px;
+		border: 1px solid black;
+		border-radius: 2px;
+		text-align: center;
+	}
+	.auth-status:last-child{
+		margin-left: 10px;
+	}
+	.auth-status a{
+		line-height: 40px;
+		margin: 0 auto;
+	}
+#main-menu{
+	border-top: 2px solid #90030c;
+}
+	#main-menu li{
+		text-align: center;
+		border-bottom: 1px solid #dedede;
+	}
 
 
 

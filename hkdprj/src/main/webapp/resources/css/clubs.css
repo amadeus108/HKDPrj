@@ -53,79 +53,47 @@ td{
 			text-indent: -999px;
 			background: url("/resources/images/icons/icon-set.png") no-repeat -24px 0px;
 		}
-/* ----- 선수 정보 창 ----- */
-#player-info{
+/* ----- 클럽 정보 창 ----- */
+#club-info{
 	width: 100%;
 	height: auto;
 /* 	margin-top: 10px; */
 }
-.player-container{
+.club-container{
 	width: 100%;
 	height: auto;
 	display: flex;
 	border-top: 2px solid #bf2626;
 	border-bottom: 2px solid #bf2626;
 }
-	.player-img{
+	.club-img{
 		margin: 0 auto;
 		width: 40%;
 		height: 200px;
 /* 		border: 1px solid black; */
 	}	
-	.player-profile{
+	.club-profile{
 		margin: 0 auto;
 		width: 50%;
 		height: 200px;
 /* 		border: 1px solid black; */
 	}
-		.player-profile table{
+		.club-profile table{
 			margin: auto;
 			height: 200px;
 		}
-		.player-profile th{
+		.club-profile th{
 			border-bottom: 1px solid #dedede;
 			width: 80px;
 			text-align: left;
 		}
-		.player-profile td{
+		.club-profile td{
 			border-bottom: 1px solid #dedede;
 			width: 100px;
 			text-align: left;
 		}
-
-.player-records{
-	width: 100%;
-	height: auto;
-	border-top: 2px solid #bf2626;
-	border-bottom: 2px solid #bf2626;
-	margin: 0 auto;
-	margin-top: 10px;
-}
-	.player-records table{
-		width: 100%;
-		height: 100%;
-	}
-	.player-records tr{
-		height: 30px;
-	}
-	.player-records table tr:nth-child(odd){
-		background: #dedede;
-	}
-	.player-records th{
-		width: calc(70% / 4);
-		text-align: center;
-		border-bottom: 1px solid #dedede;
-	}
-	.player-records th:first-child{
-		width: 30%;
-	}
-	.player-records td{
-		width: calc(70% / 4);
-		text-align: center;
-		border-bottom: 1px solid #dedede;
-	}
-
-
-
-
-
+		
+		
+		
+		
+		

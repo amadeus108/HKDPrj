@@ -2,15 +2,15 @@
 	pageEncoding="UTF-8"%>
 
 <link href="${pageContext.request.contextPath}/resources/css/index.css" rel="stylesheet" />
+<link href="${pageContext.request.contextPath}/resources/css/match-list.css" rel="stylesheet" />
 <main> 
 	<!-- --- header --- --> 
 	<!-- --- main --- -->
 	<section id="search">
 		<h1 class="hidden">해시태그 검색창</h1>
 		<div class="search-container">
-			<input class="search-input" type="search"
-				placeholder="선수 또는 클럽명을 입력해주세요." /> <input
-				class="button search-button" type="submit" value="검색" />
+			<input class="search-input" type="search" placeholder="선수 또는 클럽명을 입력해주세요." /> 
+			<input class="button search-button" type="submit" value="검색" />
 		</div>
 	</section>
 	<section id="league-table">
@@ -70,13 +70,13 @@
 			<div class="match-info">
 				<div class="club-info">
 					<div class="club-name">제주</div>
-					<div class="club-logo"><img src="/resources/images/clubs/jeju.png" /></div>
+					<div class="club-logo"><img src="/resources/images/clubs/jeju-s.png" /></div>
 				</div>
 				<div class="score">
 					<div class="score-inner">1-3</div>
 				</div>
 				<div class="club-info">
-					<div class="club-logo"><img src="/resources/images/clubs/fcseoul.png" /></div>
+					<div class="club-logo"><img src="/resources/images/clubs/seoul-l.png" /></div>
 					<div class="club-name">FC서울</div>
 				</div>
 			</div>
