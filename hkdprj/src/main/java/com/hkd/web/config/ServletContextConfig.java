@@ -14,7 +14,9 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
+import org.springframework.web.servlet.view.UrlBasedViewResolver;
 import org.springframework.web.servlet.view.tiles3.TilesConfigurer;
+import org.springframework.web.servlet.view.tiles3.TilesView;
 
 @Configuration
 @ComponentScan(basePackages="com.hkd.web.controller")
@@ -42,6 +44,14 @@ public class ServletContextConfig implements WebMvcConfigurer{
 		tilesConfigurer.setCheckRefresh(true);
 		
 		return tilesConfigurer;
+	}
+	
+	@Bean
+	public UrlBasedViewResolver urlBasedViewResolver() {
+		UrlBasedViewResolver resolver = new UrlBasedViewResolver();
+		resolver.setViewClass(TilesView.class);
+		resolver.setOrder(1);
+		return resolver;
 	}
 	
 	@Override

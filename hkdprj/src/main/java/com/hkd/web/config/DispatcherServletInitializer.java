@@ -16,8 +16,8 @@ public class DispatcherServletInitializer extends AbstractAnnotationConfigDispat
 		
 		return new Class[] {
 			ServletContextConfig.class
-			,ServiceContextConfig.class
-			,SecurityContextConfig.class
+			/*,ServiceContextConfig.class
+			,SecurityContextConfig.class*/
 			
 		};
 	}
