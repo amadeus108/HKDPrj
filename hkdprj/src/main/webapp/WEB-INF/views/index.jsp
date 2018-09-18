@@ -76,7 +76,7 @@
 					<div class="score-inner">1-3</div>
 				</div>
 				<div class="club-info">
-					<div class="club-logo"><img src="/resources/images/clubs/seoul-l.png" /></div>
+					<div class="club-logo"><img src="/resources/images/clubs/seoul-s.png" /></div>
 					<div class="club-name">FC서울</div>
 				</div>
 			</div>
