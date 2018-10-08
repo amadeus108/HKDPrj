@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/search/")
 public class SearchController {
 	
+	@GetMapping("list")
+	public String list() {
+		return "search.list";
+	}
+	
 	@GetMapping("players")
 	public String players() {
 		return "search.players";

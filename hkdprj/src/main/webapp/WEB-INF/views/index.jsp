@@ -19,7 +19,16 @@
 			<span>K리그1 순위표</span>
 			<table class="table">
 				<tr>
-					<th>순위</th><th>클럽</th><th>경기</th><th>승</th><th>무</th><th>패</th><th>득점</th><th>실점</th><th>득실</th><th>승점</th>
+					<th>순위</th>
+					<th>클럽</th>
+					<th>경기</th>
+					<th>승</th>
+					<th>무</th>
+					<th>패</th>
+					<th>득점</th>
+					<th>실점</th>
+					<th>득실</th>
+					<th>승점</th>
 				</tr>
 				<tr>
 					<td>1</td>

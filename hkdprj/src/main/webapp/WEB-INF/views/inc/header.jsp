@@ -22,12 +22,11 @@
 		<section id="main-menu">
 			<h1 class="hidden">메인 메뉴</h1>
 			<ul>
-				<li><a href="">선수정보</a></li>
-				<li><a href="">클럽정보</a></li>
+				<li><a href="/search/players">선수정보</a></li>
+				<li><a href="/search/clubs">클럽정보</a></li>
 				<li><a href="">뉴스</a></li>
 				<li><a href="">경기일정</a></li>
-				<li><a href="">리그테이블</a></li>
-				<li><a href="">이적정보</a></li>
+				<li><a href="">리그순위</a></li>
 			</ul>
 		</section>
 	</aside>
