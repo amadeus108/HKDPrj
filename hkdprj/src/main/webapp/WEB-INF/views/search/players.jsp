@@ -19,27 +19,27 @@
 				<table>
 					<tr>
 						<th>이름</th>
-						<td>고요한</td>
+						<td>${player.name}</td>
 					</tr>
 					<tr>
 						<th>생년월일</th>
-						<td>1988/03/10</td>
+						<td>${player.birthday}</td>
 					</tr>
 					<tr>
 						<th>등번호</th>
-						<td>13</td>
+						<td>${player.backNumber}</td>
 					</tr>
 					<tr>
 						<th>포지션</th>
-						<td>RM</td>
+						<td>${player.position}</td>
 					</tr>
 					<tr>
 						<th>국적</th>
-						<td>대한민국</td>
+						<td>${player.nationality}</td>
 					</tr>
 					<tr>
 						<th>소속팀</th>
-						<td><a href="">FC서울</a></td>
+						<td><a href="">${player.clubName}</a></td>
 					</tr>
 				</table>
 			</div>

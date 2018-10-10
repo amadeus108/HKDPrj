@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hkd.web.dao.PlayerDao">
+	
+	<insert id="insert" parameterType="com.hkd.web.entity.Player">
+		insert into player(name, birthday, backNumber, position, nationality, clubName)
+		values(#{name}, #{birthday}, #{backNumber}, #{position}, #{nationality}, #{clubName})
+	</insert>
+
+	<update id="update" parameterType="com.hkd.web.entity.Player">
+		update [player]
+		set [birthday] = #{birthday}
+		   ,[backNumber]   = #{backNumber}
+		   ,[position] = #{position}
+		   ,[nationality] = #{nationality}
+		   ,[clubName] = #{clubName}
+		where name=#{name}
+	</update>
+
+	<delete id="delete" parameterType="String">
+		delete from [dbo].[player]
+		where name = #{param1}
+	</delete>
+
+	<select id="get" resultType="com.hkd.web.entity.Player">
+		select * from player where name=#{param1}
+	</select>
+
+</mapper>
+
